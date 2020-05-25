@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/fontawesome.min.css">
+
+    <style>
+      #navbar{
+        background-color:#0366d6;
+      }
+
+      .nav-link{
+      margin-left: 3rem;
+    }
+      .container {
+          float: right;
+          margin-top: 2rem;
+          
+      }
+      aside{
+      width: 220px;
+      background-color: #808080;
+      padding: 2px;
+      color: white;
+      font-size: 0.9em;
+      position: relative;
+      padding-bottom: 600px;
+      }
+      footer{
+      background-color:#24292E;
+      height: 50px;
+      color: white;
+      padding-left: 10rem;
+      padding-top: 10px;
+    
+    }
+    hr{
+      margin-top: 0rem;
+
+    }
+
+    .boutton{
+      margin-top: -0.8rem;
+      margin-left: 25rem;
+    }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fa fa-home" ></i>Accueil</a><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <i class="fa fa-tachometer-alt fa-lg"></i> Tableau de Bord</a>
+            </li>
+            <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >Formations</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#"></a>
+                    </div>
+                  </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Cours</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"></a>
+                <a class="dropdown-item" href="#"></a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"></a>
+              </div>
+            </li>
+          </ul>
+    </nav>
+    <section>
+      
+        <article class="container"> 
+            <h3>Vue d'ensemble des cours</h3> <br> 
+            <a href="#" class="btn btn-secondary " role="button" aria-pressed="true">Cours</a>
+            <a href="#" class="btn btn-outline-secondary " role="button" aria-pressed="true">Chronologie</a> <hr> 
+            <div class="boutton">
+            <a href="#" class="btn btn-secondary" role="button" aria-pressed="true">En Cours</a>
+              <a href="#" class="btn btn-secondary " role="button" aria-pressed="true">A Venir</a>
+              <a href="#" class="btn btn-secondary " role="button" aria-pressed="true">Passés</a>  
+            </div> <br>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+      
+      <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+    </article>
+  <aside >
+    <h1>Navigation</h1>
+    
+  </aside>
+</section>
+<footer>Copyright &copy; 2020 -- Fortic groupe sarl tout droit reservés. | groupe 5</footer>
+    <script src="jqurey.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+</html>
