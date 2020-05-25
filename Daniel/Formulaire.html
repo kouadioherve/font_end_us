@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>formulaire d'inscription</title>
+    </head>
+    <body>
+        
+        <article class="container">
+            <header><h1>FORMULAIRE D'INSCRIPTION</h1></header>
+            <form method= "POST" action="action.php" enctype="multipart/form-data">
+                <fieldset>
+                    <label for="nom">NOM:</label>
+                    <input type="text" name="nom" id="nom" class="form-control" required/> </br>
+                    <label for="prenom">PRENOM:</label>
+                    <input type="text" name="prenom" id="prenom" class="form-control" required/> </br>
+                    <label for="naissance">DATE DE NAISSANCE:</label>
+                    <input type="date" name="naissance" id="naissance" class="form-control" required/> </br>
+                    <label for="ville">LIEU DE NAISSANCE:</label>
+                    <input type="text" name="ville" id="ville" class="form-control" required/> <br>
+                    <label for="nationalité">NATIONALITE:</label>
+                    <input type="text" name="nationalite" id="nationalite" class="form-control" required/> <br>
+                    <label for="genre">GENRE:</label>
+                    <select name="genre" id="genre" class="form-control">
+                        <option value="Masculin">Masculin</option>
+                        <option value="Feminin">Feminin</option>
+                    </select> </br>
+                    <label for="photo">PHOTO:</label>
+                    <input type="file" accept="jpg" name="photo" id="photo" class="form-control" required/> </br>
+                    <label for="diplome">DIPLOME:</label>
+                    <input type="file" accept="pdf" name="diplome" id="diplome" class="form-control" required/> </br>
+                    <label for="messagerie">EMAIL:</label> 
+                    <input type="email" name="messagerie" id="messagerie" class="form-control" placeholder="daniel@gmail.com"required/> <br>
+                    <label for="numero">NUMERO:</label>
+                    <input type="tel" name="numero" id="numero" class="form-control"/> <br>
+                    <label for="residence">LIEU DE RESIDENCE:</label>
+                    <input type="text" name="residence" id="residence" class="form-control" /> </br>
+                </fieldset>
+                <fieldset>
+                    <label for="nom du père">NOM DU PERE:</label>
+                    <input type="text" name="nom_du_père" id="nom du père" class="form-control"/> <br>
+                    <label for="telephone père">NUMERO DE TELEPHONE DU PERE:</label>
+                    <input type="telephone" name="telephone_père" id="telephone père" class="form-control"/> <br>
+                </fieldset>
+                <fieldset>
+                        <label for="nom du mère">NOM DE LA MERE:</label>
+                        <input type="text" name="nom_du_mère" id="nom du mère"/ class="form-control"> <br>
+                        <label for="telephone mère">NUMERO DE TELEPHONE DE LA MERE:</label>
+                        <input type="tel" name="telephone_mère" id="telephone mère" class="form-control"/> <br>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="ENVOYER" class="btn-primary">
+                </fieldset>
+            </form>
+        </article>
+    </body>
+</html>

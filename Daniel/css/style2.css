@@ -1,0 +1,16 @@
+footer{
+    background-color: #24292E;
+    height:7rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+.pub{
+    height:20rem;
+    background-color:#BBDEFB ;
+    overflow: scroll;
+}
+.espace{
+    height:3rem;
+}
